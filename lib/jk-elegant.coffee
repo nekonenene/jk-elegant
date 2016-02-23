@@ -18,11 +18,10 @@ module.exports = JokeElegant =
 
   elegantify: ->
     console.log 'Hello! I\'m Elegantify!'
-    console.log 'getElementById getElementsByClass element elements eleEle ele1 @Ele'
     editor = atom.workspace.getActiveTextEditor()
 
-    editorStrings  = editor.getText();
-    elegantStrings = editorStrings.replace( /(E|e)lement(s?)/g , "$1legant$2" );
-    elegantStrings = elegantStrings.replace( /(E|e)le([^a-z])/g , "$1legant$2" );
-    elegantStrings = elegantStrings.replace( /(E|e)le([^a-z])/g , "$1legant$2" );
-    editor.setText(elegantStrings);
+    editorStrings  = editor.getText()
+    elegantStrings = editorStrings.replace(  /(E|e)lement(s?)/g , "$1legant$2" )
+    elegantStrings = elegantStrings.replace( /(E|e)le([^a-z])/g , "$1legant$2" )
+    elegantStrings = elegantStrings.replace( /(E|e)le([^a-z])/g , "$1legant$2" )
+    editor.setText(elegantStrings)

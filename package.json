@@ -1,20 +1,23 @@
 {
-  "name": "joke-elegant",
-  "main": "./lib/joke-elegant",
+  "name": "jk-elegant",
+  "main": "./lib/jk-elegant",
   "version": "0.0.1",
   "description": "support more elegant implements",
-  "keywords": [
-  ],
-  "activationCommands": {
-    "atom-workspace": "joke-elegant:toggle"
-  },
-  "repository": {
-    "type" : "git",
-    "url"  : "https://github.com/nekonenene/joke-elegant"
-  },
-  "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
+  },
+  "keywords": ["javascript"
+  ],
+  "activationCommands": {
+    "atom-workspace": "jk-elegant:toggle"
+  },
+  "license": "MIT",
+  "repository": {
+    "type" : "git",
+    "url"  : "https://github.com/nekonenene/jk-elegant"
+  },
+  "bugs": {
+    "url" : "https://github.com/nekonenene/jk-elegant/issues"
   },
   "dependencies": {
   }

@@ -1,4 +1,4 @@
-JokeElegant = require '../lib/joke-elegant'
+JokeElegant = require '../lib/jk-elegant'
 
 # Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 #
@@ -10,30 +10,30 @@ describe "JokeElegant", ->
 
   beforeEach ->
     workspaceElement = atom.views.getView(atom.workspace)
-    activationPromise = atom.packages.activatePackage('joke-elegant')
+    activationPromise = atom.packages.activatePackage('jk-elegant')
 
-  describe "when the joke-elegant:toggle event is triggered", ->
+  describe "when the jk-elegant:toggle event is triggered", ->
     it "hides and shows the modal panel", ->
       # Before the activation event the view is not on the DOM, and no panel
       # has been created
-      expect(workspaceElement.querySelector('.joke-elegant')).not.toExist()
+      expect(workspaceElement.querySelector('.jk-elegant')).not.toExist()
 
       # This is an activation event, triggering it will cause the package to be
       # activated.
-      atom.commands.dispatch workspaceElement, 'joke-elegant:toggle'
+      atom.commands.dispatch workspaceElement, 'jk-elegant:toggle'
 
       waitsForPromise ->
         activationPromise
 
       runs ->
-        expect(workspaceElement.querySelector('.joke-elegant')).toExist()
+        expect(workspaceElement.querySelector('.jk-elegant')).toExist()
 
-        jokeElegantElement = workspaceElement.querySelector('.joke-elegant')
+        jokeElegantElement = workspaceElement.querySelector('.jk-elegant')
         expect(jokeElegantElement).toExist()
 
         jokeElegantPanel = atom.workspace.panelForItem(jokeElegantElement)
         expect(jokeElegantPanel.isVisible()).toBe true
-        atom.commands.dispatch workspaceElement, 'joke-elegant:toggle'
+        atom.commands.dispatch workspaceElement, 'jk-elegant:toggle'
         expect(jokeElegantPanel.isVisible()).toBe false
 
     it "hides and shows the view", ->
@@ -45,18 +45,18 @@ describe "JokeElegant", ->
       # workspaceElement to the DOM are generally slower than those off DOM.
       jasmine.attachToDOM(workspaceElement)
 
-      expect(workspaceElement.querySelector('.joke-elegant')).not.toExist()
+      expect(workspaceElement.querySelector('.jk-elegant')).not.toExist()
 
       # This is an activation event, triggering it causes the package to be
       # activated.
-      atom.commands.dispatch workspaceElement, 'joke-elegant:toggle'
+      atom.commands.dispatch workspaceElement, 'jk-elegant:toggle'
 
       waitsForPromise ->
         activationPromise
 
       runs ->
         # Now we can test for view visibility
-        jokeElegantElement = workspaceElement.querySelector('.joke-elegant')
+        jokeElegantElement = workspaceElement.querySelector('.jk-elegant')
         expect(jokeElegantElement).toBeVisible()
-        atom.commands.dispatch workspaceElement, 'joke-elegant:toggle'
+        atom.commands.dispatch workspaceElement, 'jk-elegant:toggle'
         expect(jokeElegantElement).not.toBeVisible()

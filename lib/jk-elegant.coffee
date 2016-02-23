@@ -1,4 +1,4 @@
-JokeElegantView = require './joke-elegant-view'
+JokeElegantView = require './jk-elegant-view'
 {CompositeDisposable} = require 'atom'
 
 module.exports = JokeElegant =
@@ -14,7 +14,7 @@ module.exports = JokeElegant =
     @subscriptions = new CompositeDisposable
 
     # Register command that toggles this view
-    @subscriptions.add atom.commands.add 'atom-workspace', 'joke-elegant:toggle': => @toggle()
+    @subscriptions.add atom.commands.add 'atom-workspace', 'jk-elegant:toggle': => @toggle()
 
   deactivate: ->
     @modalPanel.destroy()

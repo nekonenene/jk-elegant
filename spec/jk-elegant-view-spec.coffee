@@ -1,4 +1,4 @@
-JokeElegantView = require '../lib/joke-elegant-view'
+JokeElegantView = require '../lib/jk-elegant-view'
 
 describe "JokeElegantView", ->
   it "has one valid test", ->

@@ -2,19 +2,19 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Toggle joke-elegant'
-      'command': 'joke-elegant:toggle'
+      'label': 'Toggle jk-elegant'
+      'command': 'jk-elegant:toggle'
     }
   ]
 'menu': [
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'joke-elegant'
+      'label': 'jk-elegant'
       'submenu': [
         {
           'label': 'Toggle'
-          'command': 'joke-elegant:toggle'
+          'command': 'jk-elegant:toggle'
         }
       ]
     ]

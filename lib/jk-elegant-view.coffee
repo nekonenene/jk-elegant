@@ -3,7 +3,7 @@ class JokeElegantView
   constructor: (serializedState) ->
     # Create root element
     @element = document.createElement('div')
-    @element.classList.add('joke-elegant')
+    @element.classList.add('jk-elegant')
 
     # Create message element
     message = document.createElement('div')

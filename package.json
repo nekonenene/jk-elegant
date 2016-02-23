@@ -2,7 +2,7 @@
   "author": "hatonekoe ( @nekonenene )",
   "name": "jk-elegant",
   "main": "./lib/jk-elegant",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "support more elegant implements",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

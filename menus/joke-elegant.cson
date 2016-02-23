@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle joke-elegant'
+      'command': 'joke-elegant:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'joke-elegant'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'joke-elegant:toggle'
+        }
+      ]
+    ]
+  }
+]

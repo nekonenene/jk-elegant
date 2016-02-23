@@ -14,7 +14,7 @@ Win : <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>e</kbd>
 
 ## screenshot
 
-![Screenshot of jk-elegant](./docs/elegantify_ss.gif)
+![Screenshot of jk-elegant](https://raw.githubusercontent.com/nekonenene/jk-elegant/master/docs/elegantify_ss.gif)
 
 
 ## caution!

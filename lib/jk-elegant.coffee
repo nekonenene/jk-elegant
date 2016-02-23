@@ -17,9 +17,7 @@ module.exports = JokeElegant =
     # Register command that toggles this view
     @subscriptions.add atom.commands.add 'atom-workspace',
       'jk-elegant:toggle': => @toggle()
-      'jk-elegant:elegantify': =>
-        console.log 'ELELELELELELELELEL'
-        @elegantify()
+      'jk-elegant:elegantify': => @elegantify()
 
   deactivate: ->
     console.log 'deactivate now!'
@@ -45,11 +43,11 @@ module.exports = JokeElegant =
 
   elegantify: ->
     console.log 'Hello! I\'m Elegantify!'
+    console.log 'getElementById getElementsByClass element elements eleEle ele1 @Ele'
     editor = atom.workspace.getActiveTextEditor()
+
     editorStrings  = editor.getText();
     elegantStrings = editorStrings.replace( /(E|e)lement(s?)/g , "$1legant$2" );
     elegantStrings = elegantStrings.replace( /(E|e)le([^a-z])/g , "$1legant$2" );
     elegantStrings = elegantStrings.replace( /(E|e)le([^a-z])/g , "$1legant$2" );
-    console.log 'getElementById getElementsByClass element elements eleEle ele1 @Ele'
-    console.log elegantStrings
     editor.setText(elegantStrings);

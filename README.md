@@ -1,8 +1,25 @@
-# Elegantify for ATOM
+# jk-elegant
 
-Your code will be more elegant!
-Please check the following description.
+**Elegantify for ATOM**
 
-(This is a joke package, so I hope you have a very elegant mind.)
+Your code will be more elegant!  
+\** This is a joke package, so I hope you have a very elegant mind.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+- - -
+
+## shortcut
+
+Mac : <kbd>command</kbd> + <kbd>control</kbd> + <kbd>option</kbd> + <kbd>e</kbd>  
+Win :
+
+
+## screenshot
+
+![Screenshot of jk-elegant](./docs/elegantify_ss.gif)
+
+
+## caution!
+
+Your code may be broken by this Elegantify.  
+But, you never be afraid.  
+This is a tiny problem for elegant.

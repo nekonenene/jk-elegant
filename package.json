@@ -1,7 +1,7 @@
 {
   "name": "jk-elegant",
   "main": "./lib/jk-elegant",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "support more elegant implements",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

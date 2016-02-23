@@ -1,10 +1,10 @@
 # See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
 'context-menu':
   'atom-text-editor': [
-    {
-      'label': 'Toggle jk-elegant'
-      'command': 'jk-elegant:toggle'
-    }
+    # {
+    #   'label': 'Toggle jk-elegant'
+    #   'command': 'jk-elegant:toggle'
+    # }
   ]
 'menu': [
   {
@@ -12,9 +12,13 @@
     'submenu': [
       'label': 'jk-elegant'
       'submenu': [
+        # {
+        #   'label': 'Toggle'
+        #   'command': 'jk-elegant:toggle'
+        # },
         {
-          'label': 'Toggle'
-          'command': 'jk-elegant:toggle'
+          'label': 'Elegantify'
+          'command': 'jk-elegant:elegantify'
         }
       ]
     ]

@@ -8,4 +8,5 @@
 # For more detailed documentation see
 # https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 'atom-workspace':
-  'ctrl-alt-o': 'jk-elegant:toggle'
+  'alt-e'          : 'jk-elegant:toggle'
+  'cmd-ctrl-alt-e' : 'jk-elegant:elegantify'

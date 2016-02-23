@@ -6,19 +6,21 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "keywords": ["javascript"
+  "keywords": [
+    "javascript"
   ],
   "activationCommands": {
-    "atom-workspace": "jk-elegant:toggle"
+    "atom-workspace": "jk-elegant:toggle",
+    "atom-workspace": "jk-elegant:elegantify"
   },
   "license": "MIT",
   "repository": {
-    "type" : "git",
-    "url"  : "https://github.com/nekonenene/jk-elegant"
+    "type": "git",
+    "url": "https://github.com/nekonenene/jk-elegant"
   },
   "bugs": {
-    "url" : "https://github.com/nekonenene/jk-elegant/issues"
+    "url": "https://github.com/nekonenene/jk-elegant/issues"
   },
-  "dependencies": {
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }

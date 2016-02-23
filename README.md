@@ -3,15 +3,14 @@
 **Elegantify for ATOM**
 
 Your code will be more elegant!  
-\** This is a joke package, so I hope you have a very elegant mind.
+\** This is a joke package, so I hope you have a very elegant mind :D
 
 - - -
 
 ## shortcut
 
-Mac : <kbd>command</kbd> + <kbd>control</kbd> + <kbd>option</kbd> + <kbd>e</kbd>  
-Win :
-
+Mac : <kbd>control</kbd> + <kbd>option</kbd> + <kbd>e</kbd>  
+Win : <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>e</kbd>
 
 ## screenshot
 
